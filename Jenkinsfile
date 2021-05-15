@@ -1,11 +1,11 @@
 def IMAGE_NAME="StudyBot"
 def CONTAINER_NAMES=["bot-container-1", "bot-container-2", "bot-admin-container-1"]
-def CONTAINER_ARGS_MAP=["bot-container-1":["client", "1117493466:AAF1l0-iif8pauA2czuiW6JK7St4Bipp9n4", "StudyBotNo1"],
-                        "bot-container-2":["client", "1025575343:AAGWW02oyIXwZMXnTMKSXqz4J1z0V0XdhBc", "StudyBotNo2"],
-                        "bot-admin-container-1": ["admin", "1087308657:AAEPGzxzTMZm84hbKHb5oaDpt2v1wut0pvQ", "StudyAdminBot"]]
+def CONTAINER_ARGS_MAP=["bot-container-1":["client", "1631350081:AAGSyDbixGxarcrbILrgjex6oInkFSleveE", "Pikachu"],
+                        "bot-container-2":["client", "1880111321:AAEt7QTlDnNQ6N5hzdadD3FAjIpeloL-NBk", "BootyBot"],
+                        "bot-admin-container-1": ["admin", "1848955576:AAETbFVAqXzEOOdGJJ5eEtoc4n-6Sw3fArM", "KingBot"]]
 
 def IMAGE_TAG="latest"
-def DOCKER_HUB_USER="lenagolovach"
+def DOCKER_HUB_USER="sinsjohn"
 
 node {
 
